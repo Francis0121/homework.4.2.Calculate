@@ -7,7 +7,13 @@
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:layout_weight="0.26">
+            android:layout_height="wrap_content" android:layout_margin="20dp">
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/calculate_input" android:layout_weight="1" android:textColor="#000"
+                android:background="#fff" android:paddingLeft="10dp" android:paddingRight="10dp"
+                android:paddingTop="5dp" android:paddingBottom="5dp"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
